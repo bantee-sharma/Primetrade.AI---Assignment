@@ -38,7 +38,8 @@ We focus on:
   Leverage = Size USD / (Size Tokens × Execution Price)
 
 
-📊 Analysis Performed
+## 📊 Analysis Performed
+
 ✅ PnL Summary by Sentiment
 Calculated and visualized how average profit/loss varies by sentiment (Fear, Greed, etc.)
 
