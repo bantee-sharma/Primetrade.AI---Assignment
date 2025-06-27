@@ -1,1 +1,1 @@
-# Primetrade.AI---Assignment
+# Primetrade.AI-Assignment
