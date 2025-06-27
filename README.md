@@ -13,5 +13,19 @@ We focus on:
 - Profit/loss trends across different emotions (Fear, Greed, etc.)
 - Risk-taking behavior via leverage analysis
 - Buy/Sell preferences in different sentiments
-- Identifying profitable coins per sentiment
 - Visualizing behavioral patterns for strategy development
+
+  ---
+
+## 📁 Datasets Used
+
+1. **Fear-Greed Index Dataset**
+   - Columns: `timestamp`, `value`, `classification`, `date`
+   - Source: Alternative.me API
+
+2. **Hyperliquid Trader Dataset**
+   - Columns: `Account`, `Coin`, `Execution Price`, `Size Tokens`, `Size USD`, `Side`, `Timestamp IST`, `Closed PnL`, `Fee`, etc.
+   - Over 200,000 trades executed by real traders
+
+---
+
