@@ -28,4 +28,11 @@ We focus on:
    - Over 200,000 trades executed by real traders
 
 ---
+## 🧹 Data Preprocessing
 
+- Converted all date columns to `datetime`
+- Extracted and normalized `date` from `Timestamp IST`
+- Merged both datasets on the `date` field
+- Engineered a new column:  
+  ```python
+  Leverage = Size USD / (Size Tokens × Execution Price)
