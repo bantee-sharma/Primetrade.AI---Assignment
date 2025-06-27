@@ -1,0 +1,1 @@
+# Primetrade.AI---Assignment
