@@ -36,3 +36,45 @@ We focus on:
 - Engineered a new column:  
   ```python
   Leverage = Size USD / (Size Tokens × Execution Price)
+
+
+📊 Analysis Performed
+✅ PnL Summary by Sentiment
+Calculated and visualized how average profit/loss varies by sentiment (Fear, Greed, etc.)
+
+✅ Leverage Analysis
+Observed that leverage stays near 1× (low risk), but spikes during Greed (up to 1.86×), indicating higher risk appetite.
+
+✅ Buy vs Sell Behavior
+More Sell trades during Fear, likely due to panic selling
+
+More Buy activity in Greed, showing optimism
+
+✅ Top Performing Coins
+Identified Top 5 coins by average profit overall
+(Optionally split by sentiment)
+
+📈 Visualizations
+Plot	Insight
+📊 Bar Plot – Avg PnL by Sentiment	Traders are more profitable in Extreme Greed
+📦 Box Plot – Leverage Distribution	More risk-taking in Greed
+📉 Count Plot – Buy/Sell Side by Sentiment	Selling dominates in Fear
+📈 Line Plot – Daily Avg PnL	Shows market PnL trends over time
+🔥 Heatmap – Correlation (PnL, Fee, Leverage)	Fee negatively correlates with PnL (expected)
+🪙 Bar Plot – Top 5 Coins by Avg PnL	Highlights best performing coins
+
+💡 Key Insights
+Traders are more profitable during Extreme Greed, but also take higher risks
+
+Leverage use increases during Greed, showing aggressive trading
+
+Fear sentiment triggers more Sell trades, indicating market panic
+
+Some coins consistently outperform in Fear or Greed — use this for dynamic portfolio allocation
+
+🧾 Strategic Recommendations
+Strategy	Why It Helps
+📉 Lower Leverage in Fear	Reduces risk during market uncertainty
+📈 Use Sentiment-Specific Coin Sets	Some coins perform better in Greed, others in Fear
+⏳ Lock in Profits in Greed	Prevents loss of gains when sentiment reverses
+🧠 Combine Sentiment Signals with Trade Behavior	For smarter entry/exit decisions
