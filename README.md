@@ -40,20 +40,18 @@ We focus on:
 
 ## 📊 Analysis Performed
 
-✅ PnL Summary by Sentiment
+**✅ PnL Summary by Sentiment**
 Calculated and visualized how average profit/loss varies by sentiment (Fear, Greed, etc.)
 
-✅ Leverage Analysis
+
+**✅ Leverage Analysis**
 Observed that leverage stays near 1× (low risk), but spikes during Greed (up to 1.86×), indicating higher risk appetite.
 
-✅ Buy vs Sell Behavior
+**✅ Buy vs Sell Behavior**
 More Sell trades during Fear, likely due to panic selling
 
 More Buy activity in Greed, showing optimism
 
-✅ Top Performing Coins
-Identified Top 5 coins by average profit overall
-(Optionally split by sentiment)
 
 📈 Visualizations
 Plot	Insight
