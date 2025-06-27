@@ -53,14 +53,15 @@ More Sell trades during Fear, likely due to panic selling
 More Buy activity in Greed, showing optimism
 
 
-📈 Visualizations
-Plot	Insight
-📊 Bar Plot – Avg PnL by Sentiment	Traders are more profitable in Extreme Greed
-📦 Box Plot – Leverage Distribution	More risk-taking in Greed
-📉 Count Plot – Buy/Sell Side by Sentiment	Selling dominates in Fear
-📈 Line Plot – Daily Avg PnL	Shows market PnL trends over time
-🔥 Heatmap – Correlation (PnL, Fee, Leverage)	Fee negatively correlates with PnL (expected)
-🪙 Bar Plot – Top 5 Coins by Avg PnL	Highlights best performing coins
+## 📈 Visualizations
+
+**Plot	Insight**
+
+📊 Bar Plot** – Avg PnL by Sentiment	Traders are more profitable in Extreme Greed
+📦 Box Plot** – Leverage Distribution	More risk-taking in Greed
+📉 Count Plot** – Buy/Sell Side by Sentiment	Selling dominates in Fear
+📈 Line Plot** – Daily Avg PnL	Shows market PnL trends over time
+
 
 💡 Key Insights
 Traders are more profitable during Extreme Greed, but also take higher risks
